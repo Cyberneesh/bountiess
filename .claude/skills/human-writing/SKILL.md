@@ -48,11 +48,25 @@ Two consequences matter more than any word list.
 
 **Section summaries.** "In summary", "In conclusion", "Overall", a closing "Conclusion" section, or a paragraph that ends by restating its own point. Cut them; end on the last useful fact.
 
-**Elegant variation.** Models avoid repeating a word, so they swap in synonyms ("the company", "the firm", "the organization", "the enterprise"). People just repeat the word. Use the same plain noun every time.
+**Elegant variation.** Models avoid repeating a word, so they swap in synonyms ("the company", "the firm", "the organization", "the enterprise"). People just repeat the word. Use the same plain noun every time. (The page notes that some non-native speakers avoid repeats too, so one case proves little.)
 
 **Scene-setting about the text itself.** "In this section, we will discuss…", "The purpose is to provide a comprehensive understanding of…". Start with the content.
 
-**Claims of influence.** "Has shaped discussions about…", "continues to influence…", outline-like endings about challenges and future prospects, a stock "Awards and recognition" section. Only say it if you can say who, when and what.
+**Claims of influence.** "Has shaped discussions about…", "continues to influence…", outline-like endings about challenges and future prospects, a stock "Awards and recognition" section or other "X and Y" headings. Only say it if you can say who, when and what.
+
+**Importance after a shrug.** A hedge admitting the subject is minor, followed by a claim that it matters anyway ("though limited in scope, it contributes to the broader history of…"). For nature topics, tenuous links to the wider ecosystem and conservation talk when no status or effort exists. Cut both.
+
+**Source-stressing.** Stressing that records, databases, filings or websites "identify" or "list" the subject as something, listing the outlets that covered someone, "maintains an active social media presence". Say the fact itself, with the real source if it matters.
+
+**Titles treated as proper nouns.** Opening with "[Broad topic] refers to…" or defining a list or general title as if it were a named thing. Start with the subject.
+
+**Didactic disclaimers and refusals.** "It's important to note…", advice to an imagined reader about safety or controversy, "As an AI language model…", apologies followed by an alternative offer.
+
+**Procedural and assurance language.** Saying what was preserved or avoided ("while preserving the original meaning"), reassuring the reader that something is neutral, sourced, verified or compliant, or saying you "carefully reviewed" something. Say what you changed or found.
+
+**Clerk tone.** Customer-service apology and offer language ("apologies for any inconvenience", "please point out any issues and I will resolve them") in comments and replies.
+
+**Unfilled placeholders.** [Your Name], (Add URL here), "Evidence to be supplied". Fill them or remove them.
 
 **Markdown where it does not render.** Asterisks for bold, number signs for headings, `---` dividers and triple backticks in plain-text channels such as email, commit messages and chat apps that show raw text.
 
@@ -100,10 +114,12 @@ State these plainly when relevant:
 - This skill reduces the signs the page lists. It cannot promise any detector score.
 - Text written before 30 November 2022 is not AI written. A phrase inside a quotation, title or proper name is not a tell. One sign alone is weak evidence; a cluster is a stronger one.
 
+## Model differences worth knowing
+
+Each model has its own idiolect. The page says Gemini and Claude are more concise than ChatGPT and Grok, and that ChatGPT and Grok lean toward broader context. A July 2026 study it cites found Claude was the one contemporary model that still used em dashes more than professional writers do. Since replies from this model can carry that habit, check for dashes and for over-compressed, tidy phrasing in your own output.
+
 ## Source and coverage
 
 Wikipedia, "Signs of AI writing" (WP:AISIGNS), maintained by WikiProject AI Cleanup.
 
-Covered here: Caveats, Content, Language and grammar, Style, Communication intended for the user, Signs of human writing, Ineffective indicators, and the historical and 2026 notes on vocabulary, em dashes, disclaimers and section summaries.
-
-Left out on purpose because they only apply to editing Wikipedia: broken or invalid citations and DOIs, `utm_source` links, unused named references, template and date placeholders, wikitext markup bugs, edit summaries, AfC submission statements, canned user pages, permissions gaming, and comment-specific tells for talk pages. If the user is writing for Wikipedia, read the page directly.
+The full page is captured in `references/wikipedia-signs-full.md`: every sign in the main text, every "words to watch" list, the era-by-era vocabulary, the caveats, the human signs and the ineffective indicators. It also holds the Wikipedia-only material (citation and DOI problems, `utm_source` links, markup bugs, placeholders, edit summaries, comment tells, canned user pages, permissions gaming). Read it when you need the exact word lists or when writing for Wikipedia. The page changes as models change, so re-fetch it (`curl` works through the proxy once `en.wikipedia.org` is allowed) when the date on this skill gets old.
