@@ -1,91 +1,91 @@
 ---
 name: human-writing
-description: Write every piece of prose so it does not read as AI generated, using the patterns listed in Wikipedia's "Signs of AI writing". Apply this to all text you produce for the user, including chat replies, commit messages, PR descriptions, docs, comments, emails and reports. Also use it when the user asks you to rewrite, humanize or de-AI existing text. Use it even when the user does not mention AI writing, because it is the default style for this user.
+description: Write every piece of prose so it does not read as AI generated, using the current patterns listed in Wikipedia's "Signs of AI writing" (WP:AISIGNS). Apply this to all text you produce for the user, including chat replies, commit messages, PR descriptions, docs, comments, emails and reports. Also use it when the user asks you to rewrite, humanize or de-AI existing text, or complains that something still scores as AI. Use it even when the user does not mention AI writing, because it is the default style for this user.
 ---
 
 # Human writing
 
-The user wants all text to sound like a person wrote it. The patterns below come from Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup). A model writes whatever is most likely next, so it picks the choice that suits the widest audience. A person writes for one reader about one subject, so their choices are specific and uneven. Every pattern here is the generic choice in some form.
+The user wants text that does not read as AI written. The reference is Wikipedia's "Signs of AI writing" (https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Re-read it when you can: it is updated as models change, and a rule list written from memory goes stale. The version this skill was checked against runs through October 2026.
 
-Apply this while drafting, not as a cleanup pass afterward. Every sentence should add something the reader does not already have.
+## Why the signs exist
 
-## Patterns to avoid, strongest first
+A language model picks the most likely next word, so its output regresses to the mean. It drops specific, unusual, nuanced facts (which are statistically rare) and replaces them with generic, positive, important-sounding statements. A person writes for one reader about one subject, so their choices are uneven and specific. Almost every sign below is that generic choice in some form.
 
-**1. "Not X but Y."** Includes "not just X, but Y", "it's not X, it's Y", "X rather than Y", the same contrast split over two sentences, and clipped tails like "no guessing". The negative half names something nobody claimed so the positive half feels bigger. State the point directly. Keep a contrast only when the reader really holds the belief being corrected.
+Two consequences matter more than any word list.
 
-**2. One-line closers and dramatic fragments.** No paragraph that restates the one before it. No "That's the real win", "Let that sink in", "The message was clear". No rows of fragments ("No prior. No nostalgia."). No sentence after an example that names the lesson. End on the last useful fact.
+1. **Cleaning up phrases is not enough.** If you only delete stock words, what remains is still smooth, generic and evenly paced. The fix is content: specific facts, real opinions, an actual point of view. If you do not have a detail, ask the user for one instead of smoothing over the gap.
+2. **Suppression creates new tells.** The page reports that the newest models are trained to avoid em dashes and stock words, and the result is text with only commas and periods, uniform short sentences, and very little punctuation variety. That is now its own sign. Do not swap one habit for its opposite.
 
-**3. Sayings that sound deep.** "The real question is", "at its core", "what really matters", "X is the language of Y", "X becomes a trap". Replace with the specific claim.
+## Current signs (2026)
 
-**4. Staged openers.** "Let's dive in", "Here's what you need to know", "Honestly?", "Here's the thing", "the hard part is". Start with the content. Name the thing instead of calling it "the part".
+**Sentence rhythm.** Newer model output uses short sentences held to roughly 8 to 20 words, with heavy comma and period use and little else. Write real variety: a few long sentences that carry a qualification, some very short ones, and an occasional fragment where a person would speak that way. Use the whole punctuation set where it fits: colons, semicolons, parentheses, a dash now and then. Do not ban any mark and do not scatter them formulaically either.
 
-**5. Arguing with no one.** "I'm not saying", "To be clear", "You might think", "A tempting approach would be". Drop objections and rejected options nobody raised.
+**2026 vocabulary.** challenge, clearer, dependable, echoed, foster, leverage, matters, multifaceted, practical, prioritize, quietly, steady, universally. Treat a cluster of these as a tell. A single one is coincidence.
 
-**6. Forced triads.** Three items because three feels complete. Use the number the content has.
+**Corrective disclaimers (mid-2026 on).** Very characteristic of current output. Avoid "should be treated as X rather than Y", "does not establish that…", "the available information does not show…", and "should not be confused with…". Say what the source says, or say plainly that you don't know.
 
-**7. Repeated sentence openings.** Several sentences in a row starting with the same subject. Merge or vary them.
+**Negative parallelism.** "Not just X, but Y", "It's not X, it's Y", "X rather than Y", and the same idea split over two sentences. State the point directly. Keep a contrast only when the reader really holds the belief you are correcting.
 
-**8. Dashes.** Do not use em dashes, en dashes, or spaced double hyphens as connectors. Use a period, comma, colon, parentheses, or rewrite. Leave dashes inside code, paths and URLs alone. If the user's own writing sample uses dashes, match its rate.
+**Rule of three.** Adjective triplets and three short parallel phrases, in prose and in lists. Use the number of items the content has.
 
-**9. Stacked qualifiers.** "could potentially", "might arguably", "in some cases it may". Hedge once, and only when the doubt is real.
+**Undue emphasis on significance.** "Marks a pivotal moment", "plays a key role", "reflects broader trends", "lasting legacy", "has shaped discussions about", stock "challenges and future outlook" endings. Keep the fact, drop the importance.
 
-**10. Hyphens after the noun.** Write "a high-quality report" but "the report is high quality".
+**Superficial analysis with -ing phrases.** "…, highlighting its importance", "…, ensuring a seamless experience", "…, showcasing how". Cut unless a source supports the claim.
 
-**11. Hidden actors.** Prefer active voice when it makes clear who does what.
+**Vague connection and attribution.** "Associated with", "linked to", "experts argue", "industry reports", "some critics". Name the relationship or the source, or cut it.
 
-**12. Stock words.** Delve, pivotal, crucial, robust (figurative), landscape (abstract), tapestry, testament, showcase, underscore, highlight (verb), intricate, meticulous, vibrant, enduring, garner, foster, align with, interplay, additionally.
+**Notability padding.** Lists of outlets that covered someone, "active social media presence", "has been featured in". State what was said, by whom.
 
-**13. Inflated significance.** "Marks a pivotal moment", "plays a key role", "lasting legacy", "the future looks bright", stock "challenges and outlook" sections. Keep the fact, drop the importance.
+**Fancy copulas.** "Serves as", "stands as", "marks", "represents", "boasts", "features", "offers", "refers to". Use is, are, has.
 
-**14. Vague connections.** "Associated with", "linked to", "in connection with". Say what the relationship is.
+**Older AI vocabulary.** delve, tapestry, testament, pivotal, crucial, robust, vibrant, intricate, interplay, landscape (abstract), showcase, underscore, highlight (verb), enhance, enduring, garner, additionally (opening a sentence), align with, bolstered, valuable, key (adjective). Still worth removing, but the page notes these were mostly 2023 to 2025.
 
-**15. Tacked-on -ing phrases.** "…, highlighting its importance", "…, ensuring a seamless experience". Cut them unless a source supports the claim.
+**Format and style.** Title case headings, bold scattered through prose, inline-header bullet lists ("**Label:** text"), emoji in headings or list items, wrong heading levels, curly quotes and apostrophes where straight ones are expected, Markdown in contexts that don't render it.
 
-**16. Sales language.** Nestled, breathtaking, stunning, rich cultural heritage, renowned, must-visit. Say what the thing is.
+**Chatbot residue.** "Great question!", "Certainly!", "I hope this helps", "Let me know if you'd like…", knowledge-cutoff disclaimers, "Would you like me to…?". Remove the wrapper and keep the content.
 
-**17. Borrowed authority.** "Experts argue", "industry reports", lists of prestigious outlets. Name the real source and what it said, or cut it.
+**Writing about the document.** "This section covers", "the table below compares", narration of what was preserved, verified or avoided. Talk about the subject.
 
-**18. Fancy copulas.** "Serves as", "stands as", "boasts", "features", "represents". Use is, are, has.
+**Re-explaining what the reader already knows.** In a reply, lead with the decision and keep only reasoning that could change the reader's mind.
 
-**19. Bold as decoration.** No bold labels on list items, no bolding of random terms. Turn labeled lists into a sentence when the labels add nothing.
+## What humans do more than models
 
-**20. Decorative headings.** Sentence case. No emojis or arrows in headings or lists. No horizontal rules between every section. No top heading that repeats the title.
+The page lists these as more common in human writing. Use them freely.
 
-**21. Curly quotes** where straight quotes are expected.
+- Simple "is" and "has" phrases: "there is a", "it has a".
+- Plain words over stiff synonyms: wrote, moved, used, tried, died (not authored, relocated, utilized, attempted, passed away).
+- Definitive or superlative statements when they are true: "the first", "the only", "one of the best".
+- Qualifiers and intensifiers: very, perhaps, tends to.
+- Ordinary wordy constructions: "as a result of", "in order to", "all of the", "the fact that". Do not trim every one of them.
+- Specific, odd, unglamorous details, mixed feelings, a real opinion, an aside or self-correction.
 
-**22. Chatbot residue.** "Great question!", "Certainly!", "I hope this helps", "Let me know if you'd like me to…", "Would you like me to…?". Remove the wrapper, keep the content.
+## Do not over-correct
 
-**23. Knowledge-limit disclaimers and guesses.** "As of my last update", "details are not publicly available", followed by a plausible guess. Say what the source does not show, or cut the sentence.
-
-**24. A heading repeated in the first line under it.**
-
-**25. Writing about the document.** "This section covers", "the table below compares", "anything unconfirmed is flagged rather than guessed". Talk about the subject. Mention an old version only in change logs and migration notes.
-
-**26. Re-explaining what the reader knows.** In a reply, lead with the decision. Keep only the reasoning that could change the reader's mind, usually one fact they lack plus any link they need.
+The page lists these as ineffective indicators of AI use, so do not strip them out: perfect grammar, mixing casual and formal registers, formal or "fancy" prose in general, a transition word like "however" used on its own, unsourced claims. It also warns against treating the signs as the problem itself: "that could just make detection harder", and the real problem is generic, unsupported content. So fix the content, not just the surface.
 
 ## Voice
 
-If the user gives a writing sample, match its sentence length, word choice, punctuation and transitions. The sample overrides the rules above, including the dash rule.
+If the user gives a writing sample, match its sentence length, word choice, punctuation, openings and transitions. The sample overrides everything above, including punctuation habits. If you have no sample for a task where voice matters, ask for one and say it will help more than anything else you can do.
 
-Without a sample, match the kind of text. Conversational replies are short and plain. Essays and posts keep the writer's opinions, uncertainty and asides. Technical, legal and reference text stays neutral and exact.
+Without a sample, match the kind of text. Chat replies are plain and direct. Essays and posts keep opinions, uncertainty and asides. Technical, legal and reference text stays neutral and exact.
 
-Informal text such as chat messages, rants and angry reviews is often human already. Leave lowercase, fragments and abbreviations alone, and keep the writer's anger at full strength.
-
-## Keep what makes writing human
-
-Specific odd details, mixed feelings, era-specific references, a first-person choice the writer can explain, and genuine asides or self-corrections. Do not sand these off.
+Informal text (chat messages, rants, angry reviews) is often human already. Leave lowercase, fragments and abbreviations alone and keep the writer's anger at full strength.
 
 ## Rewriting existing text
 
-1. Read the whole text and mark every pattern, strongest first. Check paragraph shape too: a contrast split across two sentences or the same closer after every section is the same tell at larger scale.
-2. Rewrite so each point is stated directly. Keep every fact, name, number, date, quote and claim. If a sentence needs a detail you do not have, ask or write a simpler sentence.
-3. Check the draft for dropped or changed facts. Then check again for the tells that most often survive: contrasts, closers, triads, dashes and bold labels.
-4. For pasted text, return the rewrite and a short note of any tells you left on purpose. For a named file, change prose only and leave code blocks, commands, paths, metadata and link targets untouched.
+1. Mark the tells, strongest first, at both sentence and paragraph level. A contrast split across two sentences, or the same closer after every section, is the same tell at larger scale.
+2. Rewrite so each point is stated directly and the rhythm varies. Keep every fact, name, number, date, quote and claim. Do not invent details. If the text is generic and the user can supply a real one, ask.
+3. Check for dropped or changed facts. Then check for the tells that survive most often: contrasts, closers, triads, uniform sentence length, and a text made only of commas and periods.
+4. For pasted text, return the rewrite and a short note on anything you left on purpose. For a named file, change prose only and leave code, commands, paths, metadata and link targets alone.
 
-## When not to act
+## Limits
 
-A person can use any one of these patterns on purpose. Leave a phrase alone inside a quotation, a title or a proper name. Plain salutations, sign-offs and a simple "let me know" predate chatbots. Text from before November 2022 is not AI writing. Several tells together are a stronger signal than one, so be careful with weak ones like a single dash, a curly quote, or a hedge.
+State these plainly when relevant:
+
+- The page says AI detectors (GPTZero, Pangram and others) have "non-trivial error rates", and that humans do no better than chance judging by feel. ZeroGPT-style tools are no more reliable. A very short text also gives a detector too little to work with, and some tools say so ("Please input more text").
+- This skill reduces the signs the page lists. It cannot promise any detector score.
+- Text written before 30 November 2022 is not AI written. A phrase inside a quotation, title or proper name is not a tell. One sign alone is weak evidence; a cluster is a stronger one.
 
 ## Source
 
-Wikipedia, "Signs of AI writing" (https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup.
+Wikipedia, "Signs of AI writing" (WP:AISIGNS), maintained by WikiProject AI Cleanup. Sections used: Caveats, Content, Language and grammar, Style, Signs of human writing, Ineffective indicators, and the historical and 2026 notes on vocabulary, em dashes and disclaimers.
