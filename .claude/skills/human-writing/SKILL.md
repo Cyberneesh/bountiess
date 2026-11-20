@@ -46,6 +46,20 @@ Two consequences matter more than any word list.
 
 **Writing about the document.** "This section covers", "the table below compares", narration of what was preserved, verified or avoided. Talk about the subject.
 
+**Section summaries.** "In summary", "In conclusion", "Overall", a closing "Conclusion" section, or a paragraph that ends by restating its own point. Cut them; end on the last useful fact.
+
+**Elegant variation.** Models avoid repeating a word, so they swap in synonyms ("the company", "the firm", "the organization", "the enterprise"). People just repeat the word. Use the same plain noun every time.
+
+**Scene-setting about the text itself.** "In this section, we will discuss…", "The purpose is to provide a comprehensive understanding of…". Start with the content.
+
+**Claims of influence.** "Has shaped discussions about…", "continues to influence…", outline-like endings about challenges and future prospects, a stock "Awards and recognition" section. Only say it if you can say who, when and what.
+
+**Markdown where it does not render.** Asterisks for bold, number signs for headings, `---` dividers and triple backticks in plain-text channels such as email, commit messages and chat apps that show raw text.
+
+**Abrupt cut-offs.** Older tools stopped mid-sentence when they ran out of tokens. Finish what you start.
+
+**Style drift.** A sudden jump to flawless, generic polish compared with the person's earlier writing is itself a tell. Keep the user's habits, including bold, lists, typos and sentence length, when they have shown them.
+
 **Re-explaining what the reader already knows.** In a reply, lead with the decision and keep only reasoning that could change the reader's mind.
 
 ## What humans do more than models
@@ -86,6 +100,10 @@ State these plainly when relevant:
 - This skill reduces the signs the page lists. It cannot promise any detector score.
 - Text written before 30 November 2022 is not AI written. A phrase inside a quotation, title or proper name is not a tell. One sign alone is weak evidence; a cluster is a stronger one.
 
-## Source
+## Source and coverage
 
-Wikipedia, "Signs of AI writing" (WP:AISIGNS), maintained by WikiProject AI Cleanup. Sections used: Caveats, Content, Language and grammar, Style, Signs of human writing, Ineffective indicators, and the historical and 2026 notes on vocabulary, em dashes and disclaimers.
+Wikipedia, "Signs of AI writing" (WP:AISIGNS), maintained by WikiProject AI Cleanup.
+
+Covered here: Caveats, Content, Language and grammar, Style, Communication intended for the user, Signs of human writing, Ineffective indicators, and the historical and 2026 notes on vocabulary, em dashes, disclaimers and section summaries.
+
+Left out on purpose because they only apply to editing Wikipedia: broken or invalid citations and DOIs, `utm_source` links, unused named references, template and date placeholders, wikitext markup bugs, edit summaries, AfC submission statements, canned user pages, permissions gaming, and comment-specific tells for talk pages. If the user is writing for Wikipedia, read the page directly.
