@@ -66,7 +66,7 @@ The page's own warning applies to this whole file: "Please do not merely treat t
     - 2024 to 2025: claiming information is not publicly available, then guessing what it "likely" is. Words to watch: While specific details are limited/scarce…, not widely available/documented/disclosed, in the provided/available sources / search results, based on available information, does not by itself establish…. The guess and even the "not documented" claim are speculative.
     - Mid-2026 on: corrective framings. (a) "X should be treated as [speculative/symbolic] rather than [definitive/verified]", (b) "the available information does not establish [conclusion]", (c) "should not be confused with [other topic]" (least reliable). Very rare in AI output before mid-2026 (around the July 2026 GPT-5.6 release).
 25. **Phrasal templates and placeholder text.** Fill-in-the-blank brackets left unfilled: [Your Name], [Describe the specific section…], (Add your channel URL here), "Evidence to be supplied", Mad-Libs-style templates.
-26. **Prompt refusal.** "As an AI language model…", "I cannot offer medical advice, but I can…", apologies, with an alternative offered. Increasingly rare.
+26. **Prompt refusal.** "As an AI language model…", "as a large language model", "I cannot offer medical advice, but I can…", apologies, with an alternative offered. Increasingly rare.
 27. **Knowledge-cutoff statements (2022 to 2023).** "Up to my last training update", "as of my last knowledge update".
 
 ### Historical or older signs
