@@ -36,7 +36,9 @@ Two consequences matter more than any word list.
 
 **Notability padding.** Lists of outlets that covered someone, "active social media presence", "has been featured in". State what was said, by whom.
 
-**Fancy copulas.** "Serves as", "stands as", "marks", "represents", "boasts", "features", "offers", "refers to". Use is, are, has.
+**Fancy copulas.** "Serves as", "stands as", "marks", "represents", "boasts", "features", "offers", "refers to". Use is, are, has. Newer output also pads simple facts with a vague link: "ventured into politics as a candidate" for "was a candidate", "began his career as" for "was".
+
+**Guessing at private lives.** "Maintains a low profile", "keeps personal details private", "likely grew up…". If you don't know, don't write it.
 
 **Older AI vocabulary.** delve, tapestry, testament, pivotal, crucial, robust, vibrant, intricate, interplay, landscape (abstract), showcase, underscore, highlight (verb), enhance, enduring, garner, additionally (opening a sentence), align with, bolstered, valuable, key (adjective). Still worth removing, but the page notes these were mostly 2023 to 2025.
 
